@@ -1,5 +1,7 @@
 version: v1
-name: ryota0624/buf-sandbox/todoapi
+name: buf.build/ryota0624/buf-sandbox-todoapi
+deps:
+  - buf.build/googleapis/googleapis
 breaking:
   use:
     - FILE

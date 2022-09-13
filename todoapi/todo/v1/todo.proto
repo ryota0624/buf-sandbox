@@ -2,6 +2,19 @@ syntax = "proto3";
 
 package todo.v1;
 
+import "google/protobuf/empty.proto";
+
+enum Status {
+    Pending = 0;
+    Doing = 1;
+    Done = 2;
+}
+
 message Todo {
     string id = 1;
+    Status status = 2;
+}
+
+service TodoService {
+    rpc Create(Todo) returns (google.protobuf.Empty);
 }
