@@ -8,5 +8,5 @@ build/
 # Directory created by dartdoc
 doc/api/
 
-gen/**/*
-!gen/.gitkeep
+lib/generated/**/*
+!lib/generated/.gitkeep

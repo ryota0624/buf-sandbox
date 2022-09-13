@@ -1,4 +1,5 @@
 version: v1
 plugins:
   - name: dart
-    out: gen/proto/dart
+    out: lib/generated/proto/dart
+    opt: grpc
