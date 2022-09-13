@@ -1,5 +1,5 @@
 version: v1
 plugins:
-  - name: dart
+  - remote: buf.build/protocolbuffers/plugins/dart
     out: lib/generated/proto/dart
     opt: grpc
